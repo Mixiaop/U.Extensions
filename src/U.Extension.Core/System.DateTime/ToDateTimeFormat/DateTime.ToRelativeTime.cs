@@ -36,7 +36,7 @@ public static partial class Extensions
         var delta = ts.TotalSeconds;
 
         if (delta < 1) return "刚刚";
-        if (delta < 60) return ts.Seconds == 1 ? "1秒前" : ts.Seconds.ToString() + " 几秒前";
+        if (delta < 60) return ts.Seconds == 1 ? "1秒前" : ts.Seconds.ToString() + "秒前";
         if (delta < 3600 /*60 mins * 60 sec*/) return ts.Minutes == 1 ? "1分钟前" : ts.Minutes.ToString() + "分钟前";
         if (delta < 86400 /*24 hrs * 60 mins * 60 sec*/) return ts.Hours == 1 ? "1小时前" : ts.Hours.ToString() + "小时前";
 
