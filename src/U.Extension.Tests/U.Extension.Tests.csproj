@@ -46,17 +46,21 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\System.DateTime\TimeFormat.cs" />
     <Compile Include="Core\System.String\CoreObject.cs" />
     <Compile Include="Core\System.String\ExtractValueType.cs" />
+    <Compile Include="Drawing\ImageWordDrawing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Drawing\test.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\U.Extension.Collections\U.Extension.Collections.csproj">
       <Project>{193b9757-2546-47ef-9342-70baab6df59d}</Project>

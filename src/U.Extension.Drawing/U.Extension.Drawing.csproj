@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Image.ToByte[].cs" />
+    <Compile Include="Image.WordDrawing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Byte.ToImage.cs" />
     <Compile Include="FilePath.ToByte[].cs" />

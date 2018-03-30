@@ -13,3 +13,4 @@ D:\!Github\U.Extensions\src\U.Extension.Core\bin\Debug\U.Extension.Core.pdb
 D:\!Github\U.Extensions\src\U.Extension.Core\obj\Debug\U.Extension.Core.csproj.CoreCompileInputs.cache
 D:\!Github\U.Extensions\src\U.Extension.Core\obj\Debug\U.Extension.Core.dll
 D:\!Github\U.Extensions\src\U.Extension.Core\obj\Debug\U.Extension.Core.pdb
+D:\!Github\U.Extensions\src\U.Extension.Core\obj\Debug\U.Extension.Core.csprojResolveAssemblyReference.cache
